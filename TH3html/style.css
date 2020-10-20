@@ -1,0 +1,38 @@
+table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+h1 {
+    color: rgb(68, 112, 24);
+}
+
+.info {
+    width: 220px;
+}
+
+.info_content {
+    width: 300px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(195, 219, 170);
+    color: rgb(70, 114, 26);
+}
+
+.cau2{
+    color: rgb(25, 71, 223);
+    background-color: rgb(228, 219, 91);
+}
+legend{
+    color: rgb(97, 97, 19);
+}
+fieldset{
+    border: 2px solid orange ;
+}

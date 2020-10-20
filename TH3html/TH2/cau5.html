@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: rgb(119, 212, 212);
+        }
+    </style>
+</head>
+<body >
+    <h1 align="center" style="color: brown;">Đăng nhập</h1>
+    <form name="dangnhap" id="form1">
+        <table style="margin: auto;">
+            <tr>
+                <td>Mã người dùng:</td>
+                <td><input type="text" id="username" name="ma" value="" ></td> 
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td ><input type="password" name="mk" value=""></td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                    <input type="button" name="dn" id="dongy" value="Đồng ý"
+                    onclick="username1.innerHTML= username.value">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><div id="username1"></div></td>
+               
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>
